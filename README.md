@@ -1,9 +1,10 @@
-# C# Cloud Azure Blob, Table, Queue Sample Code
+# C# Cloud Azure Blob, Table, Queue, Function Sample Code
 
 ## Learning Objectives
 
 - Understand how to create an Azurite container in Docker to simulate Azure features
 - Understand code to interact with Azure Tables, Queues, Blobs
+- Understand how to write an Azure Function
 
 ## Instructions
 
@@ -12,7 +13,8 @@
 3. Pull an Azurite image: `docker pull mcr.microsoft.com/azure-storage/azurite`
 4. Execute: `docker run -p 10000:10000 -p 10001:10001 -p 10002:10002 mcr.microsoft.com/azure-storage/azurite`
 5. Install the [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)
-3. Now connect to the container using [Microsoft Azure Storage Explorer]()
+6. Now connect to the container using [Microsoft Azure Storage Explorer]()
+7. Rename the file sample.local.settings.json to local.settings.json
 
 ## Exercise
 
